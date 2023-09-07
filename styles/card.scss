@@ -1,0 +1,106 @@
+.price-card {
+  flex: 0 0 380px;
+  background-color: $color-background-card;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
+  margin-top: 115px;
+  margin-bottom: 115px;
+  margin-left: 18px;
+  &__img-band {
+    position: absolute;
+    right: 0;
+  }
+  &__text {
+    margin-top: 33px;
+    height: 64px;
+  }
+
+  .webshop-text {
+    margin-top: 36px;
+  }
+  &__title {
+    color: $color-text-title;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 43px;
+    margin: 0;
+  }
+  &__subtitle {
+    color: $color-text-title;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0;
+    text-align: center;
+  }
+
+  &__basic-price {
+    background: $color-background-basic-price;
+  }
+  &__business-price {
+    background: $color-background-business-price;
+  }
+  &__webshop-price {
+    background: $color-background-webshop-price;
+  }
+
+  &__description {
+    margin: 0;
+    margin: 40px auto 0 auto;
+    width: 327px;
+    height: 36px;
+    color: $color-text-title;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .webshop-description {
+    font-weight: 400;
+  }
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+  }
+  &__item {
+    height: 50px;
+    line-height: 50px;
+  }
+  &__item:nth-child(odd) {
+    background-color: $color-background-list-item;
+  }
+  &__checkmark-basic {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+  &__checkmark-business {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+  &__checkmark-webshop {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
+
+  &__but-basic {
+    background-color: $color-background-basic-but;
+    margin-bottom: 40px;
+  }
+  &__but-business {
+    background-color: $color-background-business-but;
+    margin-bottom: 40px;
+  }
+  &__but-webshop {
+    background-color: $color-background-webshop-but;
+    margin-bottom: 37px;
+  }
+}
+.price-card:first-of-type {
+  margin-left: 0;
+}
+.price-card:last-of-type {
+  margin-top: 112px;
+}
+.price-card:nth-child(even) {
+  position: relative;
+}

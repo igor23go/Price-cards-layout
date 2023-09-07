@@ -1,0 +1,21 @@
+@import 'variables.scss';
+@import 'common.scss';
+@import 'card.scss';
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  margin: auto;
+  max-width: 1440px;
+  min-height: 100vh;
+  background-color: $color-background-page;
+  padding-left: 132px;
+  padding-right: 132px;
+}
