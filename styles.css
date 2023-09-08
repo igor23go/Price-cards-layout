@@ -98,6 +98,9 @@
 .price-card__item {
   height: 50px;
   line-height: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
 }
 .price-card__item:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.4901960784);

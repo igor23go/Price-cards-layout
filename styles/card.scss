@@ -68,6 +68,9 @@
   &__item {
     height: 50px;
     line-height: 50px;
+    color: $color-text-title;
+    font-size: 15px;
+    font-weight: 300;
   }
   &__item:nth-child(odd) {
     background-color: $color-background-list-item;
