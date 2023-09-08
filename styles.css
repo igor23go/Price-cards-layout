@@ -38,10 +38,20 @@
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
   margin-top: 115px;
   margin-left: 18px;
+  margin-bottom: 115px;
 }
 .price-card__img-band {
   position: absolute;
-  right: 0;
+  right: -30px;
+  top: 30px;
+  width: 147px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #dc3f45;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  transform: rotate(45deg);
 }
 .price-card__text {
   margin-top: 33px;
@@ -133,6 +143,7 @@
 
 .price-card:last-of-type {
   margin-top: 112px;
+  margin-bottom: 118px;
 }
 
 .price-card:nth-child(even) {
@@ -151,7 +162,7 @@ html {
   display: flex;
   margin: auto;
   max-width: 1440px;
-  min-height: 100vh;
+  height: 1000px;
   background-color: #141b1c;
   padding-left: 132px;
   padding-right: 132px;
