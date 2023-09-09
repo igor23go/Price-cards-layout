@@ -11,13 +11,6 @@
   width: 380px;
 }
 
-.prices {
-  display: inline-block;
-  width: 160px;
-  height: 67px;
-  text-align: center;
-}
-
 .mark-check {
   display: inline-block;
   width: 15px;
@@ -65,7 +58,6 @@
 }
 .price-card__text {
   margin-top: 33px;
-  height: 64px;
 }
 .price-card .webshop-text {
   margin-top: 36px;
