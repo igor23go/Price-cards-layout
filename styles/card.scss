@@ -86,6 +86,9 @@
   &__item:nth-child(odd) {
     background-color: $color-background-list-item;
   }
+  &__item:nth-child(even) {
+    background-color: #1f3d6303;
+  }
   &__checkmark-basic {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
   }
