@@ -1,35 +1,9 @@
-.price {
-  text-align: center;
-  line-height: 105px;
-  margin: 0;
-  margin-top: 33px;
-  height: 105px;
-  color: #fff;
-  font-size: 55px;
-  font-weight: 700;
-  width: 380px;
-}
-
 .mark-check {
   display: inline-block;
   width: 15px;
   height: 13px;
   margin-left: 22px;
   margin-right: 22px;
-}
-
-.order-but {
-  width: 154px;
-  height: 40px;
-  border-radius: 20px;
-  padding: 0;
-  border: 0;
-  margin: auto;
-  display: block;
-  margin-top: 39px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
 }
 
 .price-card {
@@ -55,13 +29,13 @@
   font-weight: 700;
   transform: rotate(45deg);
 }
-.price-card__text {
+.price-card__title {
   margin-top: 33px;
 }
-.price-card .webshop-text {
+.price-card .webshop-title {
   margin-top: 36px;
 }
-.price-card__title {
+.price-card__heading {
   color: #fff;
   text-align: center;
   font-size: 35px;
@@ -77,13 +51,24 @@
   margin: 0;
   text-align: center;
 }
-.price-card__basic-price {
+.price-card__price {
+  text-align: center;
+  line-height: 105px;
+  margin: 0;
+  margin-top: 33px;
+  height: 105px;
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  width: 380px;
+}
+.price-card .basic-price {
   background: #5bb189;
 }
-.price-card__business-price {
+.price-card .business-price {
   background: #3a6ba5;
 }
-.price-card__webshop-price {
+.price-card .webshop-price {
   background: #ec632a;
 }
 .price-card__description {
@@ -99,7 +84,7 @@
 .price-card .webshop-description {
   font-weight: 400;
 }
-.price-card__list {
+.price-card__options-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -127,15 +112,28 @@
 .price-card__checkmark-webshop {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
-.price-card__but-basic {
+.price-card__order-btn {
+  width: 154px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0;
+  border: 0;
+  margin: auto;
+  display: block;
+  margin-top: 39px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.price-card .but-basic {
   background-color: #5bb189;
   margin-bottom: 40px;
 }
-.price-card__but-business {
+.price-card .but-business {
   background-color: #3a6ba5;
   margin-bottom: 40px;
 }
-.price-card__but-webshop {
+.price-card .but-webshop {
   background-color: #ec632a;
   margin-bottom: 37px;
 }

@@ -20,14 +20,14 @@
     font-weight: 700;
     transform: rotate(45deg);
   }
-  &__text {
+  &__title {
     margin-top: 33px;
   }
 
-  .webshop-text {
+  .webshop-title {
     margin-top: 36px;
   }
-  &__title {
+  &__heading {
     color: $color-text-title;
     text-align: center;
     font-size: 35px;
@@ -43,14 +43,25 @@
     margin: 0;
     text-align: center;
   }
+  &__price {
+    text-align: center;
+    line-height: 105px;
+    margin: 0;
+    margin-top: 33px;
+    height: 105px;
+    color: $color-text-title;
+    font-size: 55px;
+    font-weight: 700;
+    width: 380px;
+  }
 
-  &__basic-price {
+  .basic-price {
     background: $color-background-basic-price;
   }
-  &__business-price {
+  .business-price {
     background: $color-background-business-price;
   }
-  &__webshop-price {
+  .webshop-price {
     background: $color-background-webshop-price;
   }
 
@@ -68,7 +79,7 @@
   .webshop-description {
     font-weight: 400;
   }
-  &__list {
+  &__options-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -96,16 +107,29 @@
   &__checkmark-webshop {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
   }
+  &__order-btn {
+    width: 154px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0;
+    border: 0;
+    margin: auto;
+    display: block;
+    margin-top: 39px;
+    color: $color-text-title;
+    font-size: 14px;
+    font-weight: 400;
+  }
 
-  &__but-basic {
+  .but-basic {
     background-color: $color-background-basic-but;
     margin-bottom: 40px;
   }
-  &__but-business {
+  .but-business {
     background-color: $color-background-business-but;
     margin-bottom: 40px;
   }
-  &__but-webshop {
+  .but-webshop {
     background-color: $color-background-webshop-but;
     margin-bottom: 37px;
   }
