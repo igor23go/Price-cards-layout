@@ -12,10 +12,8 @@ html {
 
 .page {
   display: flex;
-  margin: auto;
-  width: 1440px;
-  height: 1000px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: $color-background-page;
-  padding-left: 132px;
-  padding-right: 132px;
 }
