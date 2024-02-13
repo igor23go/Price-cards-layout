@@ -1,6 +1,6 @@
 # Price cards layout
 
-[Site link](https://igor23go.github.io/Price-cards-layout/)
+[Site link](https://igor23go.github.io/PriceCardsLayout/)
 
 Layout supports desktop (up-to-1440) version
 
