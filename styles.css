@@ -119,6 +119,7 @@
   color: #fff;
   font-size: 14px;
   font-weight: 400;
+  cursor: pointer;
 }
 .price-card .but-basic {
   background-color: #5bb189;
