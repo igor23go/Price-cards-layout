@@ -19,6 +19,7 @@
 		font-weight: 700;
 		transform: rotate(45deg);
 	}
+
 	&__title {
 		margin-top: 33px;
 	}
@@ -31,6 +32,7 @@
 		line-height: 43px;
 		margin: 0;
 	}
+
 	&__subtitle {
 		color: $color-text-title;
 		font-size: 20px;
@@ -39,6 +41,7 @@
 		margin: 0;
 		text-align: center;
 	}
+
 	&__price {
 		text-align: center;
 		line-height: 105px;
@@ -54,9 +57,11 @@
 	.basic-price {
 		background: $color-background-basic-price;
 	}
+
 	.business-price {
 		background: $color-background-business-price;
 	}
+
 	.webshop-price {
 		background: $color-background-webshop-price;
 	}
@@ -75,12 +80,14 @@
 	.webshop-description {
 		font-weight: 400;
 	}
+
 	&__options-list {
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
 		margin-top: 40px;
 	}
+
 	&__item {
 		height: 50px;
 		line-height: 50px;
@@ -88,21 +95,27 @@
 		font-size: 15px;
 		font-weight: 300;
 	}
+
 	&__item:nth-child(odd) {
 		background-color: $color-background-list-item;
 	}
+
 	&__item:nth-child(even) {
 		background-color: #1f3d6303;
 	}
+
 	&__checkmark-basic {
 		background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 	}
+
 	&__checkmark-business {
 		background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 	}
+
 	&__checkmark-webshop {
 		background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 	}
+
 	&__order-btn {
 		width: 154px;
 		height: 40px;
@@ -122,15 +135,18 @@
 		background-color: $color-background-basic-but;
 		margin-bottom: 40px;
 	}
+
 	.but-business {
 		background-color: $color-background-business-but;
 		margin-bottom: 40px;
 	}
+
 	.but-webshop {
 		background-color: $color-background-webshop-but;
 		margin-bottom: 40px;
 	}
 }
+
 .price-card:first-of-type {
 	margin-left: 0;
 }
