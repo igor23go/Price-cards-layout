@@ -1,4 +1,4 @@
-.mark-check {
+.price-card__checkmark {
   display: inline-block;
   width: 15px;
   height: 13px;
@@ -13,6 +13,12 @@
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
   margin-left: 18px;
+}
+.price-card_basic {
+  margin-left: 0;
+}
+.price-card_business {
+  position: relative;
 }
 .price-card__img-band {
   position: absolute;
@@ -57,13 +63,13 @@
   font-weight: 700;
   width: 380px;
 }
-.price-card .basic-price {
+.price-card__price_basic {
   background: #5bb189;
 }
-.price-card .business-price {
+.price-card__price_business {
   background: #3a6ba5;
 }
-.price-card .webshop-price {
+.price-card__price_webshop {
   background: #ec632a;
 }
 .price-card__description {
@@ -76,7 +82,7 @@
   font-size: 15px;
   font-weight: 300;
 }
-.price-card .webshop-description {
+.price-card__description_webshop {
   font-weight: 400;
 }
 .price-card__options-list {
@@ -98,13 +104,13 @@
 .price-card__item:nth-child(even) {
   background-color: rgba(31, 61, 99, 0.0117647059);
 }
-.price-card__checkmark-basic {
+.price-card__checkmark_basic {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
-.price-card__checkmark-business {
+.price-card__checkmark_business {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
-.price-card__checkmark-webshop {
+.price-card__checkmark_webshop {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 .price-card__order-btn {
@@ -121,25 +127,17 @@
   font-weight: 400;
   cursor: pointer;
 }
-.price-card .but-basic {
+.price-card__order-btn_basic {
   background-color: #5bb189;
   margin-bottom: 40px;
 }
-.price-card .but-business {
+.price-card__order-btn_business {
   background-color: #3a6ba5;
   margin-bottom: 40px;
 }
-.price-card .but-webshop {
+.price-card__order-btn_webshop {
   background-color: #ec632a;
   margin-bottom: 40px;
-}
-
-.price-card:first-of-type {
-  margin-left: 0;
-}
-
-.price-card:nth-child(even) {
-  position: relative;
 }
 
 html {
